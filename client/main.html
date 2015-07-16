@@ -6,9 +6,16 @@
 
 <body>
   <img src="/logo/sophic-icon.png">
-  <h1>sophic.</h1>
-  <h3>a place to learn</h3>
-
+  <div class="container">
+    <header class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="/">Microscope</a>
+      </div>
+    </header>
+    <div id="main" class="row-fluid">
+      {{> postsList}}
+    </div>
+  </div>
 </body>
 
 <template name="hello">
