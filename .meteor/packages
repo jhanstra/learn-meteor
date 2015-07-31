@@ -10,4 +10,4 @@ iron:router
 sacha:spin
 accounts-password
 twbs:bootstrap
-mrt:accounts-admin-ui-bootstrap-3
+accounts-ui
