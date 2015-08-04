@@ -9,7 +9,9 @@
       <a class="brand" href="{{pathFor 'postsList'}}">Microscope</a>
       <div>
         <ul class="nav">
-          <li><a href="{{pathFor 'postSubmit'}}">New</a></li>
+          {{ #if currentUser }}
+            <li><a href="{{pathFor 'postSubmit'}}">New</a></li>
+          {{ /if }}
         </ul>
         <ul class="nav pull-right">
           <li>{{> loginButtons}}</li>
